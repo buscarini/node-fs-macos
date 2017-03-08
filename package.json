@@ -1,0 +1,35 @@
+{
+  "name": "node-fs-macos",
+  "version": "0.1.0",
+  "description": "A module to operate tags on macOS",
+  "main": "build/Release/node-fs-macos",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "tag",
+    "lock",
+    "osx",
+    "system",
+    "fs",
+    "mac"
+  ],
+  "author": {
+    "name": "JM Sánchez",
+    "email": "buscarini@gmail.com"
+  },
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buscarini/node-fs-macos"
+  },
+  "bugs": "https://github.com/buscarini/node-fs-macos/issues"
+}
