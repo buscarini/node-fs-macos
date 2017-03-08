@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "macosfs",
-      "sources": [ "node-fs-macos.mm" ],
+      "sources": [ "macosfs.mm" ],
       "libraries": [ "Foundation.framework" ],
       "cflags": ["-fobjc-arc"],
       "include_dirs" : [
